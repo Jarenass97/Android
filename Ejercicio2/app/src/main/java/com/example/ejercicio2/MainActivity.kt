@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
             var n1=Integer.parseInt(cajaNum1.text.toString())
             var n2=Integer.parseInt(cajaNum2.text.toString())
             var sum=n1+n2
-            resul.text="Resultado: $sum"
-            Toast.makeText(this,"Sumando...",Toast.LENGTH_SHORT).show()
+            resul.text= "${getString(R.string.resultado)} $sum"
+            Toast.makeText(this,getText(R.string.toast),Toast.LENGTH_SHORT).show()
         }
     }
 }
