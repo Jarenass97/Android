@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio4_RadioButtons</string>
+    <string name="boton">Press me</string>
+    <string name="numero1">Number 1</string>
+    <string name="numero2">Number 2</string>
+    <string name="resultado">Outcome:</string>
+    <string name="toastSum">adding up...</string>
+    <string name="toastRes">subtracting...</string>
+    <string name="toastMul">multiplying...</string>
+    <string name="toastDiv">dividing...</string>
+</resources>
