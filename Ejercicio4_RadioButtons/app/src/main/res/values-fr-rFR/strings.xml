@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio4_RadioButtons</string>
+    <string name="numero1">Le numéro 1</string>
+    <string name="numero2">Le numéro 2</string>
+    <string name="resultado">Résultat:</string>
+    <string name="toastSum">additionnant</string>
+    <string name="toastRes">soustraire...</string>
+    <string name="toastMul">multiplier...</string>
+    <string name="toastDiv">partage...</string>
+    <string name="radioButtonSuma">ajouter</string>
+    <string name="radioButtonResta">soustraire</string>
+    <string name="radioButtonMultiplicacion">multiplier</string>
+    <string name="radioButtonDivision">diviser</string>
+</resources>
