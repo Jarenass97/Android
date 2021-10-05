@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jorge\\Desktop\\Jorge Arenas\\DAM2\\PMDM\\Android\\Ejercicio4_RadioButtons\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rFR\\values-fr-rFR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jorge\\Desktop\\Jorge Arenas\\DAM2\\PMDM\\Android\\Ejercicio4_RadioButtons\\app\\src\\main\\res\\values-fr-rFR\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,13,12,11,10,5,9,8,7,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,119,168,646,580,523,470,217,421,369,317,266",
+                        "endColumns": "60,47,47,55,64,55,51,47,47,50,50,49",
+                        "endOffsets": "113,162,211,697,640,574,517,260,464,415,363,311"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,164,212,268,333,389,441,489,537,588,639",
+                        "endColumns": "60,47,47,55,64,55,51,47,47,50,50,49",
+                        "endOffsets": "111,159,207,263,328,384,436,484,532,583,634,684"
+                    }
+                }
+            ]
+        }
+    ]
+}
