@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="none|number"
+        android:text="0"
         app:layout_constraintBottom_toBottomOf="@+id/txtNum1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.306"
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="none|number"
+        android:text="0"
         app:layout_constraintBottom_toBottomOf="@+id/txtNum2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.306"
@@ -67,9 +69,9 @@
         app:layout_constraintVertical_bias="0.537" />
 
     <LinearLayout
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="91dp"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -77,33 +79,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.425">
 
-        <Button
-            android:id="@+id/btnSuma"
+        <RadioGroup
+            android:id="@+id/rgOperacion"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="sum" />
+            android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/btnResta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="res" />
+            <RadioButton
+                android:id="@+id/rbSuma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radioButtonSuma" />
 
-        <Button
-            android:id="@+id/btnMultiplica"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="mul" />
+            <RadioButton
+                android:id="@+id/rbResta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radioButtonResta" />
 
-        <Button
-            android:id="@+id/btnDivide"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="div" />
+            <RadioButton
+                android:id="@+id/rbMultiplica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radioButtonMultiplicacion" />
+
+            <RadioButton
+                android:id="@+id/rbDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radioButtonDivision" />
+
+        </RadioGroup>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
