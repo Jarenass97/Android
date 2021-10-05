@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio4</string>
+    <string name="boton">Púlsame</string>
+    <string name="numero1">Número 1</string>
+    <string name="numero2">Número 2</string>
+    <string name="resultado">Resultado:</string>
+    <string name="toastSum">sumando...</string>
+    <string name="toastRes">restando...</string>
+    <string name="toastMul">multiplicando...</string>
+    <string name="toastDiv">dividiendo...</string>
+</resources>
