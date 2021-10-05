@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio3</string>
+    <string name="boton">Appuyez-moi</string>
+    <string name="numero1">Le numéro 1</string>
+    <string name="numero2">Le numéro 2</string>
+    <string name="resultado">Résultat:</string>
+    <string name="toast">additionnant</string>
+</resources>
