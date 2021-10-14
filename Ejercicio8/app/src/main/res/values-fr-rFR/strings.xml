@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio8</string>
+    <string name="nombre">Nom</string>
+    <string name="nombreDefault">Ton nom...</string>
+    <string name="switchAnonimo">Anonym</string>
+    <string name="etiquetaSO">Système d\'exploitation préféré</string>
+    <string name="EtiquetaEspecialidad">Spécialité</string>
+    <string name="EtiquetaHorasEstudio">Heures d\'étude</string>
+    <string name="botonValidar">VALIDER</string>
+    <string name="botonReiniciar">" REDÉMARRAGE"</string>
+    <string name="botonCuantas">COMBIEN DE</string>
+    <string name="botonResumen">RÉSUMÉ</string>
+    <string name="validacionCorrecta">" Sondage validé"</string>
+    <string name="txtNumEncuestas">Enquêtes menées</string>
+    <string name="tituloResumen">Les sondages:</string>
+</resources>

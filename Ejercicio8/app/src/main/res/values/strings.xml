@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicio8</string>
+    <string name="nombre">Name</string>
+    <string name="nombreDefault">Your name...</string>
+    <string name="switchAnonimo">Anonymous</string>
+    <string name="etiquetaSO">Favorite operating system</string>
+    <string name="EtiquetaEspecialidad">Specialty</string>
+    <string name="EtiquetaHorasEstudio">Hours of study</string>
+    <string name="botonValidar">VALIDATE</string>
+    <string name="botonReiniciar">RESTART</string>
+    <string name="botonCuantas">HOW MANY</string>
+    <string name="botonResumen">ABSTRACT</string>
+    <string name="validacionCorrecta">Validated survey</string>
+    <string name="txtNumEncuestas">Surveys conducted:</string>
+    <string name="tituloResumen">Surveys:</string>
+</resources>
