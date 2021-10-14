@@ -180,6 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="validar"
                 android:text="@string/botonValidar" />
 
             <Button
@@ -188,6 +189,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="reiniciar"
                 android:text="@string/botonReiniciar" />
 
             <Button
@@ -196,6 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="dimeCuantas"
                 android:text="@string/botonCuantas" />
 
             <Button
@@ -204,6 +207,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="resumen"
                 android:text="@string/botonResumen" />
         </LinearLayout>
 

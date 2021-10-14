@@ -10,4 +10,7 @@
     <string name="botonReiniciar">RESTART</string>
     <string name="botonCuantas">HOW MANY</string>
     <string name="botonResumen">ABSTRACT</string>
+    <string name="validacionCorrecta">Validated survey</string>
+    <string name="txtNumEncuestas">Surveys conducted:</string>
+    <string name="tituloResumen">Surveys:</string>
 </resources>

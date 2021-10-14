@@ -11,4 +11,7 @@
     <string name="botonReiniciar">REINICIAR</string>
     <string name="botonCuantas">CUANTAS</string>
     <string name="botonResumen">RESUMEN</string>
+    <string name="validacionCorrecta">Encuesta validada</string>
+    <string name="txtNumEncuestas">Encuestas realizadas:</string>
+    <string name="tituloResumen">Encuestas:</string>
 </resources>
