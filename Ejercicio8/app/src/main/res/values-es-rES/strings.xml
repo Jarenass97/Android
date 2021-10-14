@@ -4,4 +4,11 @@
     <string name="nombre">Nombre</string>
     <string name="nombreDefault">Tu nombre...</string>
     <string name="switchAnonimo">Anónimo</string>
+    <string name="etiquetaSO">Sistema operativo favorito</string>
+    <string name="EtiquetaEspecialidad">Especialidad</string>
+    <string name="EtiquetaHorasEstudio">Horas de estudio</string>
+    <string name="botonValidar">VALIDAR</string>
+    <string name="botonReiniciar">REINICIAR</string>
+    <string name="botonCuantas">CUANTAS</string>
+    <string name="botonResumen">RESUMEN</string>
 </resources>

@@ -7,38 +7,221 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        tools:layout_editor_absoluteX="1dp">
 
-        <TextView
-            android:id="@+id/txtNombre"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
-            android:text="@string/nombre" />
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp">
 
-        <EditText
-            android:id="@+id/etNombre"
-            android:layout_width="173dp"
-            android:layout_height="42dp"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="@string/nombreDefault"
-            android:inputType="textPersonName" />
 
-        <Switch
-            android:id="@+id/swchAnonimato"
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/nombre" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="173dp"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/nombreDefault"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/swchAnonimato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/switchAnonimo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text="@string/switchAnonimo" />
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
 
+            <TextView
+                android:id="@+id/txtSO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiquetaSO"
+                android:paddingBottom="10dp"/>
+
+            <RadioGroup
+                android:id="@+id/rgSO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="40dp">
+
+                <RadioButton
+                    android:id="@+id/rbMac"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Mac" />
+
+                <RadioButton
+                    android:id="@+id/rbWindows"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Windows" />
+
+                <RadioButton
+                    android:id="@+id/rbLinux"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Linux" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/txtEspecialidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EtiquetaEspecialidad"
+                android:paddingBottom="10dp"/>
+
+            <CheckBox
+                android:id="@+id/cbDAM"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="DAM"
+                android:layout_marginLeft="40dp"/>
+
+            <CheckBox
+                android:id="@+id/cbASIR"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="ASIR"
+                android:layout_marginLeft="40dp"/>
+
+            <CheckBox
+                android:id="@+id/cbDAW"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:text="DAW" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/EtiquetaHorasEstudio" />
+
+            <SeekBar
+                android:id="@+id/sbHoras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:progressTint="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/txtNumHoras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <Button
+                android:id="@+id/btnValidar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/botonValidar" />
+
+            <Button
+                android:id="@+id/btnReiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/botonReiniciar" />
+
+            <Button
+                android:id="@+id/btnCuantas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/botonCuantas" />
+
+            <Button
+                android:id="@+id/btnResumen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/botonResumen" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.048"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.086" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
