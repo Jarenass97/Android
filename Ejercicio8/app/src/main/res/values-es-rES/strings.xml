@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio8</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombreDefault">Tu nombre...</string>
+    <string name="switchAnonimo">Anónimo</string>
+</resources>
