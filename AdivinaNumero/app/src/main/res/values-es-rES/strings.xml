@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdivinaNumero</string>
+    <string name="msgDef">Número secreto entre 0 y 100</string>
+    <string name="botonIntentar">Intentar</string>
+    <string name="msgOutOfRange">El número introducido está fuera del rango. No desperdicie sus intentos.</string>
+    <string name="msgMenorQue">El numero introducido es menor que el numero secreto</string>
+    <string name="msgMayorQue">El numero introducido es mayor que el numero secreto</string>
+    <string name="msgEncontrado">Número secreto encontrado</string>
+    <string name="ToastMenor">Menor</string>
+    <string name="ToastMayor">Mayor</string>
+    <string name="ToastEncontrado">Encontrado</string>
+    <string name="infoVidas">Vidas</string>
+    <string name="botonReiniciar">Reiniciar</string>
+    <string name="historial">Números introducidos:</string>
+    <string name="msgSinIntentos">No has encontrado el número secreto, vuelve a intentarlo</string>
+</resources>

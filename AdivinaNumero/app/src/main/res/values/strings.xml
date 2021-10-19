@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AdivinaNumero</string>
+    <string name="msgDef">Secret number between 0 and 100</string>
+    <string name="botonIntentar">Try</string>
+    <string name="msgOutOfRange">The number entered is out of range. Don\'t waste your attempts.</string>
+    <string name="msgMenorQue">The number entered is less than the secret number</string>
+    <string name="msgMayorQue">The number entered is greater than the secret number</string>
+    <string name="msgEncontrado">Secret number found</string>
+    <string name="ToastMenor">Less</string>
+    <string name="ToastMayor">Greater</string>
+    <string name="ToastEncontrado">Founded</string>
+    <string name="infoVidas">Lifes</string>
+    <string name="botonReiniciar">Restart</string>
+    <string name="historial">Numbers entered:</string>
+    <string name="msgSinIntentos">You have not found the secret number, try again</string>
 </resources>
