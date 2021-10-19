@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtMensaje"
+        style="@style/misTextViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/msgDef"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <EditText
+        android:id="@+id/etNumIntroducido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtMensaje"
+        app:layout_constraintStart_toStartOf="@+id/txtMensaje"
+        app:layout_constraintTop_toBottomOf="@+id/txtMensaje"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/btnIntentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="intentar"
+        android:text="@string/botonIntentar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etNumIntroducido"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="@+id/etNumIntroducido"
+        app:layout_constraintTop_toBottomOf="@+id/etNumIntroducido"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="reiniciar"
+        android:text="@string/botonReiniciar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etNumIntroducido"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="@+id/etNumIntroducido"
+        app:layout_constraintTop_toBottomOf="@+id/etNumIntroducido"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <ProgressBar
+        android:id="@+id/barVidas"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:max="5"
+        android:progress="5"
+        android:progressTint="#84EF07"
+        app:layout_constraintBottom_toTopOf="@+id/txtHistorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <TextView
+        android:id="@+id/txtVidas"
+        style="@style/misTextViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infoVidas"
+        app:layout_constraintBottom_toTopOf="@+id/barVidas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:id="@+id/txtHistorial"
+        style="@style/misTextViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historial"
+        app:layout_constraintBottom_toTopOf="@+id/txtMensaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

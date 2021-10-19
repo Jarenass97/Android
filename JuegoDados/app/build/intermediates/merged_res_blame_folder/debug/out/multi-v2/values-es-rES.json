@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jorge\\Desktop\\Jorge Arenas\\DAM2\\PMDM\\Android\\JuegoDados\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jorge\\Desktop\\Jorge Arenas\\DAM2\\PMDM\\Android\\JuegoDados\\app\\src\\main\\res\\values-es-rES\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,4,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,4,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,154,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,39,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,189,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,156,209,256,296,342,395,445,496",
+                        "endColumns": "47,52,52,46,39,45,52,49,50,39",
+                        "endOffsets": "98,151,204,251,291,337,390,440,491,531"
+                    }
+                }
+            ]
+        }
+    ]
+}
