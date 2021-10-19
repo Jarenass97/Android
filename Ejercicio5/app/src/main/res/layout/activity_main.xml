@@ -11,7 +11,18 @@
         android:id="@+id/txtIntroducido"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:gravity="center|right"
         android:text="50x2"
         android:textSize="50dp"
-        android:gravity="right" />
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="100"
+        android:gravity="center|right"
+        android:textSize="50dp"
+        android:paddingRight="20dp"/>
+
 </LinearLayout>
