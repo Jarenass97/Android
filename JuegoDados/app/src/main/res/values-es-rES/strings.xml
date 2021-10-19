@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JuegoDados</string>
+    <string name="jugador1">Jugador 1</string>
+    <string name="jugador2">IA</string>
+    <string name="botonLanzar">Lanzar dados</string>
+    <string name="resultadoDef">¡A JUGAR!</string>
+    <string name="resulWin">¡HAS GANADO!</string>
+    <string name="resulLose">HAS PERDIDO...</string>
+    <string name="resulEmp">¡EMPATE!</string>
+    <string name="ronda">Ronda</string>
+    <string name="botonReiniciar">Reiniciar</string>
+</resources>

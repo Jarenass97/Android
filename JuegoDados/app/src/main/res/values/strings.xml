@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">JuegoDados</string>
+    <string name="jugador1">Player 1</string>
+    <string name="jugador2">IA</string>
+    <string name="botonLanzar">Roll dice</string>
+    <string name="resultadoDef">TO PLAY!</string>
+    <string name="resulWin">YOU WIN!</string>
+    <string name="resulLose">YOU LOSE...</string>
+    <string name="resulEmp">TIE!</string>
+    <string name="ronda">Round</string>
+    <string name="botonReiniciar">Restart</string>
 </resources>
